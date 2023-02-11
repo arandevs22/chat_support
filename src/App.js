@@ -24,9 +24,9 @@ import {
 import * as firebaseui from "firebaseui";
 
 // Document elements
-const startRsvpButton = document.getElementById("startRsvp");
-const guestbookContainer = document.getElementById("guestbook-container");
 
+const guestbookContainer = document.getElementById("guestbook-container");
+const startRsvpButton = document.getElementById("startRsvp");
 const form = document.getElementById("leave-message");
 const input = document.getElementById("message");
 const guestbook = document.getElementById("guestbook");

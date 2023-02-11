@@ -1,0 +1,114 @@
+html{
+  background: #121212;
+}
+
+hr {
+  clear: both;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+section {
+  margin: 20px;
+}
+
+.material-icons {
+  padding-right: 10px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 28px;
+  color: #fff;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 0px;
+  color: #fff;
+}
+
+label{
+  font-size: 18px;
+}
+
+p {
+  font-size: 18px;
+  margin-top:10px;
+  margin-bottom:0px;
+}
+
+#guestbook > p {
+  font-size: 14px;
+  color: #fff;
+}
+
+input{
+  border: none;
+  border-bottom: 1px solid rgba(0,0,0,.12);
+  font-size: 14px;
+  padding: 4px 0;
+  background: 0 0;
+  text-align: left;
+  color: inherit;
+}
+
+button.clicked{
+  background-color: #01EB78;
+  border-color: #01EB78;
+  color: white;
+  outline-color: #01EB78;
+}
+
+button, button.firebaseui-id-submit.mdl-button--raised.mdl-button--colored{
+align-items: center;
+background-color: rgba(0, 0, 0, 0);
+border-color: #01EB78;
+border-radius: 4px;
+border-style: solid;
+border-width: 1px;
+box-shadow: none;
+color: #01EB78;
+cursor: default;
+display: inline-flex;
+font-family: Poppins, sans-serif;
+font-size: 14px;
+font-weight: bold;
+height: 36px;
+justify-content: center;
+margin: 8px 16px;
+outline-color: #01EB78;
+overflow: hidden;
+padding: 0px 15px;
+position: relative;
+text-align: center;
+text-transform: uppercase;
+vertical-align: middle;
+}
+
+.firebaseui-container{
+  background-color: #121212 !important;
+  border-style: solid;
+  border-color: #fff;
+}
+
+.firebaseui-title{
+  color: #fff !important;
+}
+
+.firebaseui-input, .firebaseui-input-invalid{
+  color: #fff;
+}
+
+.banner {
+  border-radius: 15px;
+}
